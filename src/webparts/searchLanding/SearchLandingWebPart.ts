@@ -14,7 +14,7 @@ import { ISearchLandingProps } from './components/ISearchLandingProps';
 export interface ISearchLandingWebPartProps {
   description: string;
 }
-
+//https://github.com/SharePoint/sp-dev-fx-webparts/tree/dev/samples/react-comparer
 export default class SearchLandingWebPart extends BaseClientSideWebPart<ISearchLandingWebPartProps> {
 
   public render(): void {
