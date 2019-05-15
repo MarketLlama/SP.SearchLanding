@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-landing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/searchLanding/SearchLandingWebPart.js",
+          "manifest": "./src/webparts/searchLanding/SearchLandingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SearchLandingWebPartStrings": "lib/webparts/searchLanding/loc/{locale}.js"
+  }
+}
