@@ -31,7 +31,7 @@
       /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 
       /* Set a specific height */
-      height:420px;
+      height:500px;
 
       /* Position and center the image to scale nicely on all screens */
       background-position: center;
@@ -91,7 +91,7 @@
         font-size: 20px;
         color: $ms-color-neutralPrimary;
         border: none;
-        background-color: $ms-color-themeLight;
+        background-color: rgba(218, 218, 218, 0.75);
         padding-left: 55px;
         min-height: 48px;
       }
